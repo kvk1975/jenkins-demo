@@ -62,7 +62,7 @@ pipeline {
             }
          post{
                 success {
-                    emailext body: 'Successfully completed pipeline project with archiving the artifacts', subject: 'Pipeline was successfull', to: 'kayveekalal    @gmail.com'
+                    emailext body: 'Successfully completed pipeline project with archiving the artifacts', subject: 'Pipeline was successfull', to: 'kayveekalal@gmail.com'
                 }
     }
 }
